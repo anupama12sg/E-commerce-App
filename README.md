@@ -1,12 +1,11 @@
-# React + Vite
+# E-Commerce App using ReactJS, Tailwind CSS, MongoDB, Express JS, Node JS, Stripe and Razorpay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Roadmap:
+ 1. Install [Vite + React](https://vite.dev/guide/). Create a new folder "Frontend" and do "npm install". To run the project, "npm run dev". (Refer docs)
+ 2. Install [Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite). (Refer docs)
+ 3. Clear files like App.jsx, App.css, index.css. Delete Vite & React logo to add the project's logo & title. (This will enable you to start making your project.)
+ 4. Change the logo & title of the project from "index.html" to add the project's  logo & title.
+ 5. Add the images into the "Assets" folder.
+ 6. Create "Pages" folder and make the following files inside it: About.jsx, Cart.jsx, Collection.jsx, Contact.jsx, Home.jsx, Login.jsx, Orders.jsx, PlaceOrder.jsx etc.
+ 7. Create "Components" folder.
+ 8. Install Route & Routes from "react-router-dom" which will be used to link Pages & Components to one another.
