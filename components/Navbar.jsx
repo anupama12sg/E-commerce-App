@@ -1,6 +1,7 @@
 import React from 'react'
 import assets from '../src/assets/frontend_assets/logo.png'
 import { NavLink } from 'react-router-dom'
+import search_icon from '../src/assets/frontend_assets/search_icon.png'
 
 const Navbar = () => {
     return (
@@ -29,6 +30,10 @@ const Navbar = () => {
                     <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
                 </NavLink>
             </ul>
+
+            <div className='flex items-center gap-6'>
+                <img src={search_icon} className='w-5 cursor-pointer' alt="" />
+            </div>
 
         </div>
     )
