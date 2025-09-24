@@ -2,6 +2,7 @@ import React from 'react'
 import assets from '../src/assets/frontend_assets/logo.png'
 import { NavLink } from 'react-router-dom'
 import search_icon from '../src/assets/frontend_assets/search_icon.png'
+import profile_icon from '../src/assets/frontend_assets/profile_icon.png'
 
 const Navbar = () => {
     return (
@@ -33,6 +34,11 @@ const Navbar = () => {
 
             <div className='flex items-center gap-6'>
                 <img src={search_icon} className='w-5 cursor-pointer' alt="" />
+
+                <div className='group relative'>
+                    <img src={profile_icon} className='w-5 cursor-pointer' alt="" />
+                </div>
+
             </div>
 
         </div>
