@@ -1,8 +1,9 @@
 import React from 'react'
 import assets from '../src/assets/frontend_assets/logo.png'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import search_icon from '../src/assets/frontend_assets/search_icon.png'
 import profile_icon from '../src/assets/frontend_assets/profile_icon.png'
+import cart_icon from '../src/assets/frontend_assets/cart_icon.png'
 
 const Navbar = () => {
     return (
@@ -49,6 +50,9 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
+                <Link to='/cart' className='relative' >
+                    <img src={cart_icon} className='w-5 min-w-5' alt="" />
+                </Link>
             </div>
         </div>
     )
