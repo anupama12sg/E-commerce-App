@@ -16,3 +16,5 @@
  3.  Under the same div, create another div. In this add the profile logo at the right side of the navbar. Add cursor pointer to it.
  4.  Under the same div, create another div. In this. we need to create a classname with dropdown. So that when we hover on the profile icon we can get the following 3 things: My Profile, Orders and Logout.
  5.  These 3 things will be under a div (under the profile icon div).
+ 6.  After this, create a Link tag under which add the cart icon and a p tag with 10 written. This denotes the number of items in the cart.
+ 7.  Then, add the menu icon and add width as 5, put cursor pointer to it.
