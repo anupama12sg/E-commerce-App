@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import assets from '../src/assets/frontend_assets/logo.png'
 import { Link, NavLink } from 'react-router-dom'
 import search_icon from '../src/assets/frontend_assets/search_icon.png'
@@ -7,6 +7,9 @@ import cart_icon from '../src/assets/frontend_assets/cart_icon.png'
 import menu_icon from '../src/assets/frontend_assets/menu_icon.png'
 
 const Navbar = () => {
+
+    const [visible, setVisible] = useState(false);
+
     return (
         <div className='flex items-center justify-between py-5 font-medium'>
 
@@ -56,7 +59,7 @@ const Navbar = () => {
                     <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]'>10</p>
                 </Link>
 
-                <img src={menu_icon} className='w-5 cursor-pointer sm:hidden' alt="" />
+                <img onClick={() => setVisible(true)} src={menu_icon} className='w-5 cursor-pointer sm:hidden' alt="" />
             </div>
         </div>
     )
