@@ -72,10 +72,10 @@ const Navbar = () => {
                         <p>Back</p>
                     </div>
 
-                    <NavLink to='/'>HOME</NavLink>
-                    <NavLink to='/collection'>COLLECTION</NavLink>
-                    <NavLink to='/about'>ABOUT</NavLink>
-                    <NavLink to='/contact'>CONTACT US</NavLink>
+                    <NavLink className='py-2 pl-6 border' to='/'>HOME</NavLink>
+                    <NavLink className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
+                    <NavLink className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
+                    <NavLink className='py-2 pl-6 border' to='/contact'>CONTACT US</NavLink>
 
                 </div>
             </div>
